@@ -14,7 +14,8 @@ body,
 
 body {
   font-family: sans-serif;
-  background-color: #f9fbfd;
+  background-color: #9accfd;
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/65268a71-d0fc-4420-b985-2e0dcc0aaf9c/d5mb9o0-d5725650-cf7a-4494-8a9e-4e6ac83430c9.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvNjUyNjhhNzEtZDBmYy00NDIwLWI5ODUtMmUwZGNjMGFhZjljXC9kNW1iOW8wLWQ1NzI1NjUwLWNmN2EtNDQ5NC04YTllLTRlNmFjODM0MzBjOS5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.rEVBmFxSBAiNt4RSg8fw3BlXF5mPJCaHEZvIO4eAhxI);
 }
 
 .wrapper {
@@ -31,7 +32,7 @@ header {
 }
 
 .card {
-  background-color: hsl(0, 0%, 100%);
+  background-color: hsl(293, 37%, 73%);
   border-radius: 5px;
   border-width: 1px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
@@ -74,7 +75,7 @@ header {
 
 .btn {
   border: none;
-  background-color: hsl(360, 91%, 36%);
+  background-color: rgb(9, 59, 116);
   border-radius: 25px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
     0px;
