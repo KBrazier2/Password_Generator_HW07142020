@@ -40,6 +40,148 @@ function generatePassword(passLength, passLower, passUpper, passNumeric, passSpe
     
   }
 
+  if (passLower === false && passUpper === true && passNumeric === true && passSpecial === true) {
+    var allCharacters = (upper + numeric + special);
+    for (var i = 0; i < passLength; i++) {
+      var generated = Math.floor(Math.random() * allCharacters.length);
+      finalPassword += allCharacters[generated];
+      
+    }
+    
+  }
+
+  if (passLower === false && passUpper === false && passNumeric === true && passSpecial === true) {
+    var allCharacters = (numeric + special);
+    for (var i = 0; i < passLength; i++) {
+      var generated = Math.floor(Math.random() * allCharacters.length);
+      finalPassword += allCharacters[generated];
+      
+    }
+    
+  }
+
+  if (passLower === false && passUpper === false && passNumeric === false && passSpecial === true) {
+    var allCharacters = (special);
+    for (var i = 0; i < passLength; i++) {
+      var generated = Math.floor(Math.random() * allCharacters.length);
+      finalPassword += allCharacters[generated];
+      
+    }
+    
+  }
+
+  if (passLower === true && passUpper === false && passNumeric === true && passSpecial === true) {
+    var allCharacters = (lower + numeric + special);
+    for (var i = 0; i < passLength; i++) {
+      var generated = Math.floor(Math.random() * allCharacters.length);
+      finalPassword += allCharacters[generated];
+      
+    }
+    
+  }
+
+  if (passLower === true && passUpper === false && passNumeric === false && passSpecial === true) {
+    var allCharacters = (lower + special);
+    for (var i = 0; i < passLength; i++) {
+      var generated = Math.floor(Math.random() * allCharacters.length);
+      finalPassword += allCharacters[generated];
+      
+    }
+    
+  }
+
+  if (passLower === true && passUpper === false && passNumeric === false && passSpecial === false) {
+    var allCharacters = (lower);
+    for (var i = 0; i < passLength; i++) {
+      var generated = Math.floor(Math.random() * allCharacters.length);
+      finalPassword += allCharacters[generated];
+      
+    }
+    
+  }
+
+  if (passLower === true && passUpper === true && passNumeric === false && passSpecial === true) {
+    var allCharacters = (lower + upper + special);
+    for (var i = 0; i < passLength; i++) {
+      var generated = Math.floor(Math.random() * allCharacters.length);
+      finalPassword += allCharacters[generated];
+      
+    }
+    
+  }
+
+  if (passLower === true && passUpper === true && passNumeric === false && passSpecial === false) {
+    var allCharacters = (lower + upper);
+    for (var i = 0; i < passLength; i++) {
+      var generated = Math.floor(Math.random() * allCharacters.length);
+      finalPassword += allCharacters[generated];
+      
+    }
+    
+  }
+
+  if (passLower === false && passUpper === true && passNumeric === false && passSpecial === false) {
+    var allCharacters = (upper);
+    for (var i = 0; i < passLength; i++) {
+      var generated = Math.floor(Math.random() * allCharacters.length);
+      finalPassword += allCharacters[generated];
+      
+    }
+    
+  }
+
+  if (passLower === true && passUpper === true && passNumeric === true && passSpecial === false) {
+    var allCharacters = (lower + upper + numeric);
+    for (var i = 0; i < passLength; i++) {
+      var generated = Math.floor(Math.random() * allCharacters.length);
+      finalPassword += allCharacters[generated];
+      
+    }
+    
+  }
+  
+  if (passLower === false && passUpper === true && passNumeric === true && passSpecial === false) {
+    var allCharacters = (upper + numeric);
+    for (var i = 0; i < passLength; i++) {
+      var generated = Math.floor(Math.random() * allCharacters.length);
+      finalPassword += allCharacters[generated];
+      
+    }
+    
+  }
+
+  if (passLower === false && passUpper === false && passNumeric === true && passSpecial === false) {
+    var allCharacters = (numeric);
+    for (var i = 0; i < passLength; i++) {
+      var generated = Math.floor(Math.random() * allCharacters.length);
+      finalPassword += allCharacters[generated];
+      
+    }
+    
+  }
+
+  if (passLower === true && passUpper === false && passNumeric === true && passSpecial === false) {
+    var allCharacters = (lower + numeric);
+    for (var i = 0; i < passLength; i++) {
+      var generated = Math.floor(Math.random() * allCharacters.length);
+      finalPassword += allCharacters[generated];
+      
+    }
+    
+  }
+
+  if (passLower === false && passUpper === true && passNumeric === false && passSpecial === true) {
+    var allCharacters = (upper + special);
+    for (var i = 0; i < passLength; i++) {
+      var generated = Math.floor(Math.random() * allCharacters.length);
+      finalPassword += allCharacters[generated];
+      
+    }
+    
+  }
+
+
+  
 return finalPassword;
 
 }
