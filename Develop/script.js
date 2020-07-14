@@ -179,7 +179,11 @@ function generatePassword(passLength, passLower, passUpper, passNumeric, passSpe
     }
     
   }
-
+  
+  if (passLower === false && passUpper === false && passNumeric === false && passSpecial === false) {
+    alert("Silly, there are no other characters to generate a password!")
+    
+  }
 
   
 return finalPassword;
